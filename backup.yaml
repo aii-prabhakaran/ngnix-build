@@ -1,0 +1,13 @@
+#
+# See https://github.com/bitsofinfo/cicdstatemgr/tree/master/examples/tekton
+#
+# The base pipeline-config yaml files that 
+# cicdstatmgr will merge with our customizations
+# below to yield the final config file
+#
+bases:
+  - core.yaml
+  - dev.yaml
+  - prod.yaml
+
+

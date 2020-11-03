@@ -1,0 +1,4 @@
+bases:
+  - core.yaml
+  - dev.yaml
+  - prod.yaml
